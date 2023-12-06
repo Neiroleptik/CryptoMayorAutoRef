@@ -2,16 +2,16 @@ import asyncio
 import datetime
 import random
 import time
-
+import logging
 import aiohttp
+
 from aiohttp import ServerDisconnectedError
 from eth_account.messages import encode_defunct
 from web3 import Web3
 from cfg import concurrent_tasks, total_count, ref_id
 from proxies import proxy_list
 from setup_logger import setup_logger
-
-logger = setup_logger('Crypto Mayor' 'crypto_mayor.log')
+logger = setup_logger('Crypto Mayor' 'crypto_mayor.log', logging.INFO)
 
 w3 = Web3()
 
