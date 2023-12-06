@@ -8,7 +8,7 @@
 ### Настройка окружения:
 1. Install Python 3.9
 2. Download .zip repository or git clone:\
-`git clone https://github.com/Neiroleptik/CryptoMayorAutoRef`
+`git clone https://github.com/Neiroleptik/CryptoMayorAutoRef.git`
 3. Install requirements:\
 `pip install -r requirements.txt`
 4. Upload proxies to proxies.py. In format 'log:pass@ip:port'
