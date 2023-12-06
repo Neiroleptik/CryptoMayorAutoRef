@@ -52,6 +52,7 @@ async def connect_and_send(url, ref_id_bytes, proxy_url):
     except ServerDisconnectedError:
         logger.error('Server disconnected!')
         pass
+
 async def main(ref_id, proxy):
     private_key, address = await create_new_eth_account()
     logger.debug(f"New Ethereum account created:\nPrivate Key: {private_key}\nAddress: {address}")
