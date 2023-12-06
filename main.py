@@ -11,7 +11,8 @@ from web3 import Web3
 from cfg import concurrent_tasks, total_count, ref_id
 from proxies import proxy_list
 from setup_logger import setup_logger
-logger = setup_logger('Crypto Mayor' 'crypto_mayor.log', logging.INFO)
+
+logger = setup_logger('Crypto Mayor', 'crypto_mayor.log', logging.INFO)
 
 w3 = Web3()
 
